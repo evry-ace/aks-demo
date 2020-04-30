@@ -8,7 +8,7 @@ ingress:
   hosts:
     - host: aks.tietoevry.site
       paths:
-        - "/*"
+        - "/"
   tls:
     - secretName: aks-tietoevry-tls
       hosts:
